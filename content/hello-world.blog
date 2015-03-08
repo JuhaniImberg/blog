@@ -1,0 +1,28 @@
+date: 2015-08-03
+
+Hi:
+  I decided that finally was my time to start a blog. I wanted to do it in style, so I wrote my own static site generator. It only depends on Python3.
+
+  It has its own generic markup language, which looks something like this.
+
+
+
+  `date: 2015-08-03
+
+Hi:
+  Blah
+  - create a static site generator
+  - create a blog with it
+  - ???
+  - *profit*`
+
+  Which comes out like this
+
+  Hi:
+    Blah
+    - create a static site generator
+    - create a blog with it
+    - ???
+    - *profit*
+
+There is a ton of bugs in the markup parser but hey, it worked fine for this post.
